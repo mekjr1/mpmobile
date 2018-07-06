@@ -6,6 +6,7 @@ node_js:
 cache:
   yarn: true
 before_install:
+  - chmod +x scripts/*.sh
   - docker build -t mekjr1/wordpress-pwa .
   - docker run -p 5000:8080 -d mekjr1/wordpress-pwa
 script:
