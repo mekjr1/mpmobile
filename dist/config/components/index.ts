@@ -27,7 +27,9 @@ import { PageNavbarComponent } from '../../src/components/page-navbar/page-navba
 import { MovieListComponent } from './movie-list/movie-list';
 import { ActorListComponent } from './actor-list/actor-list';
 import { MovieItemComponent } from './movie-item/movie-item';
-
+import { MusicListComponent } from './music-list/music-list';
+import { ArtistListComponent } from './artist-list/artist-list';
+import { MusicItemComponent } from './music-item/music-item';
 export const ComponentsMapping = {
     // items
     'posts-item': PostsItemComponent,
@@ -42,10 +44,14 @@ export const ComponentsMapping = {
     // it is important to keep the naming convention <type>-item because we use this pattern
     // to load those components dynamically
     'movie-item': MovieItemComponent,
+	'music-item': MusicItemComponent,
     // it is important to keep the naming convention <type>-list because we use this pattern
     // to load those components dynamically
     'movie-list': MovieListComponent,
     'actor-list': ActorListComponent,
+	'music-list': MusicListComponent,
+	'artist-list': ArtistListComponent,
+	
 };
 
 export const COMPONENTS = [
@@ -75,4 +81,7 @@ export const COMPONENTS = [
     MovieListComponent,
     MovieItemComponent,
     ActorListComponent,
+	MusicItemComponent,
+	MusicListComponent,
+	ArtistListComponent,
 ];

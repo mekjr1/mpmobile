@@ -23,6 +23,10 @@ import { ItemMoviePage } from './item-movie';
 import { ListMoviePage } from './list-movie';
 import { ListActorPage } from './list-actor';
 import { ListActorsPage } from './list-actors';
+import { ItemMusicPage } from './item-music';
+import { ListMusicPage } from './list-music';
+import { ListArtistPage } from './list-artist';
+import { ListArtistsPage } from './list-artists';
 // Tabs (this is just an example on how to add tabs and can be removed)
 import { CustomTabsPage } from './custom-tabs';
 
@@ -45,6 +49,10 @@ export const MenuMapping = {
     movie: ListMoviePage,
     actorItem: ListActorPage,
     actor: ListActorsPage,
+	musicItem: ItemMusicPage,
+    music: ListMusicPage,
+    artistItem: ListArtistPage,
+    artist: ListArtistPage,
     // Tabs (this is just an example on how to add tabs and can be removed)
     customTabs: CustomTabsPage,
 }
@@ -68,7 +76,11 @@ export const DeepLinkerLnks = [
     { component: ItemMoviePage, name: 'Movie', segment: 'movies/:slug' },
     { component: ListMoviePage, name: 'Movies', segment: 'movies' },
     { component: ListActorsPage, name: 'Actors', segment: 'actors' },
-    { component: ListActorPage, name: 'Actor movies', segment: 'actors/:id' },
+    { component: ListActorPage, name: 'Actor Movie', segment: 'actors/:id' },
+	{ component: ItemMusicPage, name: 'Music', segment: 'music/:slug' },
+    { component: ListMusicPage, name: 'Musics', segment: 'musics' },
+    { component: ListArtistPage, name: 'Artists', segment: 'artists' },
+    { component: ListArtistPage, name: 'Artist Music', segment: 'artists/:id' },
     // Tabs (this is just an example on how to add tabs and can be removed)
     { component: CustomTabsPage, name: 'Custom tabs', segment: 'custom-tabs' },
 ];
@@ -99,6 +111,10 @@ export const PAGES = [
     ListMoviePage,
     ListActorPage,
     ListActorsPage,
+	ItemMusicPage,
+    ListMusicPage,
+    ListArtistPage,
+    ListArtistsPage,
     // Tabs (this is just an example on how to add tabs and can be removed)
     CustomTabsPage,
 ];

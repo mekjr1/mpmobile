@@ -1,9 +1,9 @@
 # Here you can overwrite any of the src/config.default.cson
 title: "My Blog title"
 search:
-    types: ['posts', 'pages', 'movie']
+    types: ['posts', 'pages', 'music']
 api:
-    baseUrl: "http://www.musicapromo.net/wp-json"
+    baseUrl: 'http:musicapromo.net/wp-json'
 
 # Static metas (for SEO purpose)
 # Each page will dynamically overwrite those
@@ -20,7 +20,7 @@ metas:
     ogImageHeight: 400
     # Twitter card
     twitterSite: ''
-    twitterCreator: '' # e.g @julienrenaux
+    twitterCreator: '' # e.g @mekjr1
 
 admob:
     bannerEnabled: false

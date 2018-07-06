@@ -2,14 +2,14 @@
     {
         "type": "internal",
         "trans": "HOME",
-        "page": "posts",
+        "page": "music",
         "icon": "home",
         "navRoot": true
     },
     {
         "type": "internal",
-        "trans": "TABS",
-        "page": "customTabs",
+        "trans": "Artistas",
+        "page": "artist",
         "icon": "albums",
         "navRoot": true
     },
@@ -22,22 +22,11 @@
         "trans": "POSTS",
         "icon": "paper",
         "list": [
-            {
-                "type": "internal",
-                "trans": "Hello world",
-                "page": "postsItem",
-                "params": {
-                    "year": "2015",
-                    "month": "11",
-                    "day": "20",
-                    "slug": "hello-world"
-                },
-                "icon": "document"
-            },
+
             {
                 "type": "internal",
                 "trans": "All",
-                "page": "posts",
+                "page": "playlist",
                 "icon": "paper",
                 "navRoot": true
             }
@@ -50,15 +39,6 @@
         "params": {},
         "icon": "document",
         "list": [
-            {
-                "type": "internal",
-                "trans": "Sample page",
-                "page": "pagesItem",
-                "params": {
-                    "slug": "sample-page"
-                },
-                "icon": "document"
-            },
             {
                 "type": "internal",
                 "trans": "All",
@@ -75,17 +55,8 @@
         "list": [
             {
                 "type": "internal",
-                "trans": "La vie en rose",
-                "page": "movieItem",
-                "params": {
-                    "slug": "la-vie-en-rose"
-                },
-                "icon": "videocam"
-            },
-            {
-                "type": "internal",
-                "trans": "All Movies",
-                "page": "movie",
+                "trans": "All Musics",
+                "page": "music",
                 "icon": "videocam",
                 "navRoot": true
             }
@@ -102,17 +73,8 @@
         "list": [
             {
                 "type": "internal",
-                "trans": "Uncategorized",
-                "page": "category",
-                "params": {
-                    "id": 1
-                },
-                "icon": "help"
-            },
-            {
-                "type": "internal",
                 "trans": "All",
-                "page": "categories",
+                "page": "genre",
                 "icon": "folder",
                 "navRoot": true
             }
@@ -123,15 +85,6 @@
         "trans": "TAGS",
         "icon": "pricetags",
         "list": [
-            {
-                "type": "internal",
-                "trans": "AngularJS",
-                "page": "tag",
-                "params": {
-                    "id": 16
-                },
-                "icon": "logo-apple"
-            },
             {
                 "type": "internal",
                 "trans": "All",
@@ -148,26 +101,8 @@
         "list": [
             {
                 "type": "internal",
-                "trans": "Audrey Tautou",
-                "page": "actorItem",
-                "params": {
-                    "id": 99
-                },
-                "icon": "film"
-            },
-            {
-                "type": "internal",
-                "trans": "Marion Cotillard",
-                "page": "actorItem",
-                "params": {
-                    "id": 96
-                },
-                "icon": "film"
-            },
-            {
-                "type": "internal",
                 "trans": "All Actors",
-                "page": "actor",
+                "page": "artist",
                 "icon": "film",
                 "navRoot": true
             }
@@ -229,8 +164,8 @@
     },
     {
         "type": "external",
-        "trans": "My blog (external link)",
-        "href": "https://julienrenaux.fr",
+        "trans": "Developer ",
+        "href": "http://www.abdulmeque.com",
         "icon": "link"
     }
 ]

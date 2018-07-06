@@ -41,6 +41,12 @@
             "/actors": {
                 "prefix": true
             },
+			"/music": {
+                "prefix": true
+            },
+            "/artist": {
+                "prefix": true
+            },
             "/custom-tabs": {
                 "prefix": false
             }
