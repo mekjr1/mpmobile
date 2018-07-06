@@ -3,7 +3,7 @@ title: "My Blog title"
 search:
     types: ['posts', 'pages', 'music']
 api:
-    baseUrl: 'http:musicapromo.net/wp-json'
+    baseUrl: "http:musicapromo.net/wp-json"
 
 # Static metas (for SEO purpose)
 # Each page will dynamically overwrite those
